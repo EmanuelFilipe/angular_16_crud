@@ -5,3 +5,6 @@
 
 - criando componentes
 ng g c components/template/footer
+
+- criando serviço
+ng g s components/product/product
