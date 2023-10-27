@@ -1,5 +1,5 @@
 <mat-card>
-    <mat-card-title style="margin: 20px 0px 0px 20px;">Novo Produto</mat-card-title>
+    <mat-card-title style="margin: 20px 0px 0px 20px;">Atualizar Produto</mat-card-title>
     <form>
         <mat-form-field>
             <input name="name" matInput placeholder="Nome" 
@@ -11,11 +11,11 @@
         </mat-form-field>
     </form>
     <div style="margin-left: 20px; margin-bottom: 20px;">
-        <button mat-raised-button (click)="cancelProduct()" color="secondary" >
+        <button mat-raised-button (click)="cancel()" color="secondary" >
             Cancel
         </button>
-        <button mat-raised-button (click)="createProduct()" color="primary" style="margin: 15px;" >
-            Salvar
+        <button mat-raised-button (click)="updateProduct()" color="primary" style="margin: 15px;" >
+            Atualizar
         </button>
     </div>
 </mat-card>
